@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    overflow: hidden;
+    font-family: "Playfair Display";
+    text-align: center;
+    box-shadow: 0px 7px 10px #888888;  
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    letter-spacing: 4px;
+    z-index: 1;
+    
+}
+
+.header a {
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 10px;
+    
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header-right {
+    float: right;
+}
+
+.main-image {
+    width: 100%;
+    height: 900px;
+    vertical-align: middle;
+    border-style: none;
+    /* box-shadow: 0px 10px 20px #888888; */
+    
+}
+
+.title-container {
+    position: absolute;
+    top: 800px;
+    padding: 12px 24px;
+    opacity: 0.60;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.col {
+    float: left;
+    font-size: 25px;
+}
+
+.half {
+    width: 50%;
+    font-size: 25px;
+}
+
+.padding-large {
+    padding: 12px 24px;
+}
+
+.opacity-min {
+    opacity: 0.75;
+}
+
+.round {
+    border-radius: 4px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    /* text-shadow: 4px 2px 7px #888888; */
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    border: 1px solid gray;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+h5 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.large {
+    font-size: 25px;
+    box-sizing: inherit;
+
+}
+
+p {
+    letter-spacing: 2px;
+    display: block;
+    margin: 1em 0;
+    /* font-size: 30px; */
+}
+
+.text-grey {
+    color: grey;
+}
+
+.light-grey {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+/* Contact Section */
+
+.container {
+    padding: 0.01em 16px;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 8px #888888; */
+}
+
+.text-blue-grey {
+    color: #607d8b;
+}
+
+form {
+    display: block;
+    margin-top: 0;
+    unicode-bidi: isolate;
+}
+
+.input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+}
+
+.section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.button {
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0px 8px 10px #888888;
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        flex-direction: column;
+    }
+}
